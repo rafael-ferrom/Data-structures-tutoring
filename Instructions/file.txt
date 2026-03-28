@@ -1,0 +1,19 @@
+Download MinGW
+Set up an environment variable to be able to run .c files
+Download the extensions: C/C++ and C/C++ Compile Run
+Run the following commands to compile C projects in the desired folder:
+
+gcc *.c -o program
+.\program.exe
+
+🇧🇷 PT
+
+Baixe o MinGW
+Configure uma variável de ambiente para conseguir rodar arquivos .c
+Baixe as extensões: C/C++ e C/C++ Compile Run
+Execute os seguintes comandos para compilar os projetos C na pasta desejada:
+
+gcc *.c -o programa
+.\programa.exe
+
+
