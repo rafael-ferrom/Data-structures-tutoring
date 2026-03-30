@@ -1,0 +1,186 @@
+En
+
+SUMMARY – DATA STRUCTURES IN C
+
+1 STATIC LIST
+A static list is a sequential data structure implemented using a fixed-size array.
+The elements are stored in contiguous memory positions, and a control variable
+usually keeps track of the current number of elements.
+
+Advantages:
+- Fast access by index
+- Simple implementation
+- Good read performance
+
+Disadvantages:
+- Fixed size
+- Insertions and removals may require shifting elements
+
+Usage:
+It is recommended when the maximum number of elements is known in advance and
+direct access by position is important.
+
+
+2 LINKED LIST
+A linked list is a dynamic data structure composed of nodes. Each node stores a value
+and a pointer to the next node in the sequence. The elements do not need to be stored
+in contiguous memory locations.
+
+Advantages:
+- Dynamic size
+- Efficient insertions and removals
+- Better memory usage
+
+Disadvantages:
+- Sequential access
+- Higher memory usage because of pointers
+
+Usage:
+It is recommended when there are frequent insertions and removals, especially at
+the beginning or in the middle of the list.
+
+
+3 DOUBLY LINKED LIST
+A doubly linked list is an extension of the singly linked list. Each node contains
+a value, a pointer to the next node, and another pointer to the previous node.
+
+Advantages:
+- Bidirectional navigation
+- More efficient removals
+- Easier forward and backward traversal
+
+Disadvantages:
+- Higher memory consumption
+- More complex implementation
+
+Usage:
+It is useful in systems that require bidirectional navigation, such as browser history
+or undo/redo systems.
+
+
+4 STATIC STACK
+A static stack is a LIFO (Last In, First Out) data structure, where the last element
+inserted is the first one to be removed. It is generally implemented using an array.
+
+Advantages:
+- Fast insertion and removal
+- Simple implementation
+- Good performance
+
+Disadvantages:
+- Fixed size
+- May overflow if the limit is exceeded
+
+Usage:
+It is widely used in recursion, function call control, undo actions,
+and mathematical expression evaluation.
+
+
+5 DYNAMIC STACK
+A dynamic stack follows the same LIFO principle, but it is implemented with linked nodes,
+allowing it to grow according to the program's needs.
+
+Advantages:
+- Flexible size
+- Better memory usage
+- Fast operations
+
+Disadvantages:
+- Uses pointers
+- Requires memory allocation and deallocation
+
+Usage:
+It is recommended when the number of elements is not known in advance or may vary significantly.
+
+PT - BR
+
+RESUMO – ESTRUTURAS DE DADOS EM C
+
+1 LISTA ESTÁTICA
+A lista estática é uma estrutura de dados sequencial implementada com vetor de tamanho fixo. 
+Os elementos são armazenados em posições contíguas de memória, e uma variável de controle 
+geralmente indica a quantidade atual de elementos. 
+
+Vantagens:
+- Acesso rápido por índice
+- Implementação simples
+- Boa performance em leitura
+
+Desvantagens:
+- Tamanho fixo
+- Inserções e remoções podem exigir deslocamento de elementos
+
+Uso:
+É indicada quando a quantidade máxima de elementos é conhecida previamente e quando 
+o acesso direto por posição é importante.
+
+
+2 LISTA ENCADEADA
+A lista encadeada é uma estrutura dinâmica composta por nós. Cada nó armazena um valor 
+e um ponteiro para o próximo nó da sequência. Os elementos não precisam estar em posições 
+contíguas de memória.
+
+Vantagens:
+- Tamanho dinâmico
+- Inserção e remoção eficientes
+- Melhor aproveitamento de memória
+
+Desvantagens:
+- Acesso sequencial
+- Maior uso de memória devido aos ponteiros
+
+Uso:
+É recomendada quando há muitas inserções e remoções, principalmente no início ou no meio da lista.
+
+
+3 LISTA DUPLAMENTE ENCADEADA
+A lista duplamente encadeada é uma evolução da lista encadeada simples. Cada nó possui 
+um valor, um ponteiro para o próximo nó e outro para o nó anterior.
+
+Vantagens:
+- Navegação em dois sentidos
+- Remoções mais eficientes
+- Facilita operações de ida e volta
+
+Desvantagens:
+- Maior consumo de memória
+- Implementação mais complexa
+
+Uso:
+É útil em sistemas que exigem navegação bidirecional, como histórico de navegação e 
+controle de desfazer/refazer.
+
+
+4 PILHA ESTÁTICA
+A pilha estática é uma estrutura de dados do tipo LIFO (Last In, First Out), em que o 
+último elemento inserido é o primeiro a ser removido. Geralmente é implementada com vetor.
+
+Vantagens:
+- Inserção e remoção rápidas
+- Implementação simples
+- Boa performance
+
+Desvantagens:
+- Tamanho fixo
+- Pode ocorrer overflow se exceder o limite
+
+Uso:
+É amplamente utilizada em recursão, controle de chamadas de funções, desfazer ações 
+e avaliação de expressões matemáticas.
+
+
+5 PILHA DINÂMICA
+A pilha dinâmica segue o mesmo princípio LIFO, porém é implementada com nós encadeados, 
+permitindo crescimento conforme a necessidade do programa.
+
+Vantagens:
+- Tamanho flexível
+- Melhor uso de memória
+- Operações rápidas
+
+Desvantagens:
+- Uso de ponteiros
+- Necessidade de alocação e liberação de memória
+
+Uso:
+É indicada quando a quantidade de elementos não é conhecida previamente ou pode variar muito.
