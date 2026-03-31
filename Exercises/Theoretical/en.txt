@@ -1,0 +1,38 @@
+1 Static List
+
+Explain what a static list is and how it is implemented in C.
+
+What are the main advantages and disadvantages of this structure?
+
+In which situations is a static list most suitable?
+
+2 Linked List
+
+What differentiates a linked list from a static list?
+
+Explain the role of pointers in a linked list.
+
+Why does a linked list allow dynamic growth?
+
+3 Doubly Linked List
+What is the main difference between a singly and a doubly linked list?
+
+What are the advantages of having a pointer to the previous node?
+
+In which scenarios is this structure more efficient?
+
+4 Static Stack
+
+What does the LIFO concept mean?
+
+Explain how push and pop operations work.
+
+What are the limitations of a static stack?
+
+5 Dynamic Stack
+
+What is the difference between a static and a dynamic stack?
+
+Why does a dynamic stack not have a fixed size?
+
+What precautions should be taken when using dynamic memory allocation?

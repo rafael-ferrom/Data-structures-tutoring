@@ -1,0 +1,39 @@
+1 Static List
+
+Exercise 1: Create a function that inserts an element at a specific position in the static list.
+
+Exercise 2: Implement a function that searches for a value in the list and returns its position.
+
+Exercise 3: Create a function that removes all duplicate numbers from the list.
+
+2 Linked List
+
+Exercise 1: Implement a function to count how many nodes exist in the list.
+
+Exercise 2: Create a function that returns the largest value in the linked list.
+
+Exercise 3: Implement a function to insert a new node after a specific value.
+
+3 Doubly Linked List
+
+Exercise 1: Implement a function that traverses the list from beginning to end and then from end to beginning.
+
+Exercise 2: Create a function that removes a specific node correctly updating previous and next pointers.
+
+Exercise 3: Implement a function that inserts an element before a specific value in the list.
+
+4 Static Stack
+
+Exercise 1: Implement a function that displays all stack elements without changing it.
+
+Exercise 2: Create a function that reverses a string using a static stack.
+
+Exercise 3: Use a stack to verify whether an expression has balanced parentheses.
+
+5 Dynamic Stack
+
+Exercise 1: Implement a function that counts how many elements exist in the dynamic stack.
+
+Exercise 2: Create a function that copies all elements from one stack to another.
+
+Exercise 3: Use a dynamic stack to convert decimal to binary.
