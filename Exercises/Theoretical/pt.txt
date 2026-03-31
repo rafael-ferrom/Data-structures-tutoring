@@ -1,0 +1,39 @@
+1 Lista Estática
+
+Explique o que é uma lista estática e como ela é implementada em C.
+
+Quais são as principais vantagens e desvantagens dessa estrutura?
+
+Em quais situações a lista estática é mais indicada?
+
+2 Lista Encadeada
+
+O que diferencia uma lista encadeada de uma lista estática?
+
+Explique o papel dos ponteiros em uma lista encadeada.
+
+Por que a lista encadeada permite crescimento dinâmico?
+
+3 Lista Duplamente Encadeada
+
+Qual a principal diferença entre lista encadeada simples e dupla?
+
+Quais são as vantagens de possuir ponteiros para o nó anterior?
+
+Em que cenários essa estrutura é mais eficiente?
+
+4 Pilha Estática
+
+O que significa o conceito LIFO?
+
+Explique como funciona a operação de push e pop.
+
+Quais são as limitações da pilha estática?
+
+5 Pilha Dinâmica
+
+Qual a diferença entre pilha estática e pilha dinâmica?
+
+Por que a pilha dinâmica não possui limite fixo?
+
+Quais cuidados devem ser tomados ao usar alocação dinâmica?

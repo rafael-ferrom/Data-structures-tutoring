@@ -1,0 +1,39 @@
+1 Lista Estática
+
+Exercício 1: Crie uma função que insira um elemento em uma posição específica da lista estática.
+
+Exercício 2: Implemente uma função que busque um valor na lista e retorne sua posição.
+
+Exercício 3: Crie uma função que remova todos os números repetidos da lista.
+
+2 Lista Encadeada
+
+Exercício 1: Implemente uma função para contar quantos nós existem na lista.
+
+Exercício 2: Crie uma função que retorne o maior valor da lista encadeada.
+
+Exercício 3: Implemente uma função para inserir um novo nó após um valor específico.
+
+3 Lista Duplamente Encadeada
+
+Exercício 1: Implemente uma função que percorra a lista do início ao fim e depois do fim ao início.
+
+Exercício 2: Crie uma função que remova um nó específico ajustando corretamente os ponteiros anterior e próximo.
+
+Exercício 3: Implemente uma função que insira um elemento antes de um valor específico na lista.
+
+4 Pilha Estática
+
+Exercício 1: Implemente uma função que exiba todos os elementos da pilha sem alterá-la.
+
+Exercício 2: Crie uma função que inverta uma string usando pilha estática.
+
+Exercício 3: Use pilha para verificar se uma expressão tem parênteses balanceados.
+
+5 Pilha Dinâmica
+
+Exercício 1: Implemente uma função que conte quantos elementos existem na pilha dinâmica.
+
+Exercício 2: Crie uma função que copie todos os elementos de uma pilha para outra.
+
+Exercício 3: Use pilha dinâmica para converter decimal para binário.
