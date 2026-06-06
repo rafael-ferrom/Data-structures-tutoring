@@ -37,3 +37,81 @@ Exercise 1: Implement a function that counts how many elements exist in the dyna
 Exercise 2: Create a function that copies all elements from one stack to another.
 
 Exercise 3: Use a dynamic stack to convert decimal to binary.
+
+6 Binary Search Tree (BST)
+Exercise 1
+
+Implement a recursive function that counts how many nodes exist in the tree.
+
+Exercise 2
+
+Create a function that returns the largest value stored in the BST.
+
+Exercise 3
+
+Implement a function that calculates the height of the tree.
+
+7 AVL Tree
+Exercise 1
+
+Insert the values 30, 20, 10 and show the resulting tree after balancing.
+
+Exercise 2
+
+Insert the values 10, 30, 20 and identify which rotation (LL, RR, LR, or RL) is performed.
+
+Exercise 3
+
+Implement a function that verifies whether a tree satisfies AVL balance conditions.
+
+8 Graph Using Adjacency Matrix
+Exercise 1
+
+Create a graph with 5 vertices and implement a function to display its adjacency matrix.
+
+Exercise 2
+
+Implement a function that calculates the degree of a vertex.
+
+Exercise 3
+
+Use DFS (Depth-First Search) to traverse all vertices starting from vertex 0.
+
+9 Graph Using Adjacency List
+Exercise 1
+
+Create a graph with 5 vertices and implement a function to display its adjacency list.
+
+Exercise 2
+
+Implement a function that counts the number of adjacent vertices of a given vertex.
+
+Exercise 3
+
+Use BFS (Breadth-First Search) to traverse the graph starting from vertex 0.
+
+10 Depth-First Search (DFS)
+Exercise 1
+
+Implement DFS recursively using an adjacency list.
+
+Exercise 2
+
+Modify DFS to count how many vertices were visited.
+
+Exercise 3
+
+Use DFS to determine whether a path exists between two vertices.
+
+11 Breadth-First Search (BFS)
+Exercise 1
+
+Implement BFS using a queue.
+
+Exercise 2
+
+Use BFS to calculate the shortest distance between two vertices in an unweighted graph.
+
+Exercise 3
+
+Modify BFS to display the vertices level by level.

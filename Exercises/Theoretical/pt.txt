@@ -37,3 +37,55 @@ Qual a diferença entre pilha estática e pilha dinâmica?
 Por que a pilha dinâmica não possui limite fixo?
 
 Quais cuidados devem ser tomados ao usar alocação dinâmica?
+
+6. Árvore Binária de Busca (ABB)
+Exercício 1
+
+O que é uma Árvore Binária de Busca (ABB) e qual propriedade a diferencia de uma árvore binária comum?
+
+Exercício 2
+
+Explique como são realizadas as operações de inserção, busca e remoção em uma ABB.
+
+Exercício 3
+
+Quais são as principais vantagens e desvantagens da utilização de uma ABB?
+
+7. Árvore AVL
+Exercício 1
+
+O que é uma Árvore AVL e qual a diferença em relação a uma Árvore Binária de Busca comum?
+
+Exercício 2
+
+O que é o fator de balanceamento de um nó e por que ele é importante?
+
+Exercício 3
+
+Explique a finalidade das rotações AVL (LL, RR, LR e RL).
+
+8. Grafo com Matriz de Adjacência
+Exercício 1
+
+O que é uma matriz de adjacência e como ela representa um grafo?
+
+Exercício 2
+
+Quais são as vantagens e desvantagens da representação por matriz de adjacência?
+
+Exercício 3
+
+Em quais situações a matriz de adjacência é mais indicada do que a lista de adjacência?
+
+9. Grafo com Lista de Adjacência
+Exercício 1
+
+O que é uma lista de adjacência e como ela representa as conexões de um grafo?
+
+Exercício 2
+
+Quais são as vantagens e desvantagens da representação por lista de adjacência?
+
+Exercício 3
+
+Por que a lista de adjacência é geralmente preferida para grafos esparsos?

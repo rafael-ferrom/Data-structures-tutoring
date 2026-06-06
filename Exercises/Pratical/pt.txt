@@ -37,3 +37,81 @@ Exercício 1: Implemente uma função que conte quantos elementos existem na pil
 Exercício 2: Crie uma função que copie todos os elementos de uma pilha para outra.
 
 Exercício 3: Use pilha dinâmica para converter decimal para binário.
+
+6 Árvore Binária de Busca (ABB)
+Exercício 1
+
+Implemente uma função recursiva que conte quantos nós existem na árvore.
+
+Exercício 2
+
+Crie uma função que retorne o maior valor armazenado na ABB.
+
+Exercício 3
+
+Implemente uma função que calcule a altura da árvore.
+
+7 Árvore AVL
+Exercício 1
+
+Insira os valores 30, 20 e 10 e mostre como a árvore fica após o balanceamento.
+
+Exercício 2
+
+Insira os valores 10, 30 e 20 e identifique qual rotação (LL, RR, LR ou RL) é executada.
+
+Exercício 3
+
+Implemente uma função que verifique se uma árvore atende às condições de balanceamento AVL.
+
+8 Grafo com Matriz de Adjacência
+Exercício 1
+
+Crie um grafo com 5 vértices e implemente uma função para exibir sua matriz de adjacência.
+
+Exercício 2
+
+Implemente uma função que calcule o grau de um vértice.
+
+Exercício 3
+
+Utilize DFS (Busca em Profundidade) para percorrer todos os vértices a partir do vértice 0.
+
+9 Grafo com Lista de Adjacência
+Exercício 1
+
+Crie um grafo com 5 vértices e implemente uma função para exibir sua lista de adjacência.
+
+Exercício 2
+
+Implemente uma função que conte quantos vértices adjacentes um determinado vértice possui.
+
+Exercício 3
+
+Utilize BFS (Busca em Largura) para percorrer o grafo a partir do vértice 0.
+
+10 Busca em Profundidade (DFS)
+Exercício 1
+
+Implemente o algoritmo DFS de forma recursiva utilizando lista de adjacência.
+
+Exercício 2
+
+Modifique o DFS para contar quantos vértices foram visitados.
+
+Exercício 3
+
+Utilize DFS para verificar se existe caminho entre dois vértices.
+
+11 Busca em Largura (BFS)
+Exercício 1
+
+Implemente o algoritmo BFS utilizando uma fila.
+
+Exercício 2
+
+Utilize BFS para calcular a menor distância entre dois vértices em um grafo não ponderado.
+
+Exercício 3
+
+Modifique o BFS para exibir os vértices organizados por níveis.

@@ -92,6 +92,96 @@ Disadvantages:
 Usage:
 It is recommended when the number of elements is not known in advance or may vary significantly.
 
+6 BINARY SEARCH TREE (BST)
+
+A Binary Search Tree (BST) is a hierarchical data structure in which each node stores a value and up to two children. The left subtree contains values smaller than the parent node, while the right subtree contains values greater than the parent node.
+
+Advantages:
+Efficient search operations
+Efficient insertion and removal
+Naturally stores data in sorted order
+Disadvantages:
+Performance degrades if the tree becomes unbalanced
+Can become similar to a linked list in the worst case
+Usage:
+
+It is recommended when frequent searches, insertions, and removals are required while maintaining sorted data.
+
+7 AVL TREE
+
+An AVL Tree is a self-balancing Binary Search Tree. After every insertion or removal, rotations are performed when necessary to keep the height difference between subtrees within an acceptable range.
+
+Advantages:
+Always remains balanced
+Search, insertion, and removal operations have O(log n) complexity
+Better performance than an unbalanced BST
+Disadvantages:
+More complex implementation
+Additional processing for balancing operations
+Usage:
+
+It is ideal for applications that require many search operations and consistent performance.
+
+8 GRAPH USING ADJACENCY MATRIX
+
+An adjacency matrix graph represents connections between vertices using a two-dimensional matrix. Each cell indicates whether an edge exists between two vertices.
+
+Advantages:
+Fast edge lookup
+Simple implementation
+Efficient for dense graphs
+Disadvantages:
+High memory consumption
+Inefficient for sparse graphs
+Usage:
+
+It is recommended when the graph contains many edges and edge existence queries are frequent.
+
+9 GRAPH USING ADJACENCY LIST
+
+An adjacency list graph represents each vertex along with a list of its adjacent vertices.
+
+Advantages:
+Lower memory consumption
+Efficient for sparse graphs
+Easy to traverse neighboring vertices
+Disadvantages:
+Edge lookup can be slower
+More complex implementation than matrices
+Usage:
+
+It is recommended for large graphs with relatively few connections.
+
+10 DEPTH-FIRST SEARCH (DFS)
+
+Depth-First Search (DFS) is a graph traversal algorithm that explores a path as deeply as possible before backtracking.
+
+Advantages:
+Simple implementation
+Uses less memory
+Useful for path finding and connectivity analysis
+Disadvantages:
+Does not guarantee the shortest path
+May visit many unnecessary vertices
+Usage:
+
+Used in graph traversal, cycle detection, connectivity checking, and topological sorting.
+
+11 BREADTH-FIRST SEARCH (BFS)
+
+Breadth-First Search (BFS) is a graph traversal algorithm that visits vertices level by level using a queue.
+
+Advantages:
+Finds the shortest path in unweighted graphs
+Systematic exploration
+Easy to understand
+Disadvantages:
+Higher memory consumption
+May process many vertices
+Usage:
+
+Used for shortest-path problems, network analysis, and level-order graph traversal.
+
 PT - BR
 
 RESUMO – ESTRUTURAS DE DADOS EM C
@@ -184,3 +274,93 @@ Desvantagens:
 
 Uso:
 É indicada quando a quantidade de elementos não é conhecida previamente ou pode variar muito.
+
+6 ÁRVORE BINÁRIA DE BUSCA (ABB)
+
+A Árvore Binária de Busca (ABB) é uma estrutura hierárquica em que cada nó possui um valor e até dois filhos. Os valores menores ficam na subárvore esquerda e os maiores na subárvore direita.
+
+Vantagens:
+Busca eficiente
+Inserção e remoção rápidas
+Mantém os elementos ordenados naturalmente
+Desvantagens:
+Pode perder desempenho se ficar desbalanceada
+No pior caso pode se comportar como uma lista encadeada
+Uso:
+
+É indicada quando há muitas operações de busca, inserção e remoção, mantendo os dados ordenados.
+
+7 ÁRVORE AVL
+
+A Árvore AVL é uma Árvore Binária de Busca auto-balanceada. Após inserções ou remoções, rotações são realizadas para manter a diferença de altura entre as subárvores dentro de limites aceitáveis.
+
+Vantagens:
+Mantém-se balanceada automaticamente
+Busca, inserção e remoção em O(log n)
+Melhor desempenho que ABBs desbalanceadas
+Desvantagens:
+Implementação mais complexa
+Necessita processamento adicional para balanceamento
+Uso:
+
+É ideal para aplicações que realizam muitas buscas e exigem desempenho consistente.
+
+8 GRAFO COM MATRIZ DE ADJACÊNCIA
+
+O grafo com matriz de adjacência representa as conexões entre vértices por meio de uma matriz bidimensional. Cada posição da matriz indica se existe uma aresta entre dois vértices.
+
+Vantagens:
+Consulta rápida de arestas
+Implementação simples
+Eficiente para grafos densos
+Desvantagens:
+Alto consumo de memória
+Pouco eficiente para grafos esparsos
+Uso:
+
+É recomendado quando o grafo possui muitas arestas e consultas frequentes de conexões.
+
+9 GRAFO COM LISTA DE ADJACÊNCIA
+
+O grafo com lista de adjacência representa cada vértice juntamente com uma lista contendo seus vértices vizinhos.
+
+Vantagens:
+Menor consumo de memória
+Eficiente para grafos esparsos
+Facilita percorrer vizinhos
+Desvantagens:
+Busca de arestas mais lenta
+Implementação mais complexa que matriz
+Uso:
+
+É indicado para grafos grandes com poucas conexões em relação ao número total de vértices.
+
+10 BUSCA EM PROFUNDIDADE (DFS)
+
+A Busca em Profundidade (Depth-First Search - DFS) é um algoritmo de percorrimento que explora um caminho até o máximo possível antes de retornar.
+
+Vantagens:
+Implementação simples
+Baixo consumo de memória
+Útil para análise de conectividade e caminhos
+Desvantagens:
+Não garante o menor caminho
+Pode explorar caminhos desnecessários
+Uso:
+
+É utilizada para percorrimento de grafos, detecção de ciclos, análise de componentes conexos e ordenação topológica.
+
+11 BUSCA EM LARGURA (BFS)
+
+A Busca em Largura (Breadth-First Search - BFS) é um algoritmo que visita os vértices por níveis, utilizando uma fila para controlar a exploração.
+
+Vantagens:
+Encontra o menor caminho em grafos não ponderados
+Exploração organizada por níveis
+Fácil compreensão
+Desvantagens:
+Maior consumo de memória
+Pode visitar muitos vértices
+Uso:
+
+É utilizada em problemas de menor caminho, análise de redes e percorrimento por níveis em grafos.

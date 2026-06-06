@@ -36,3 +36,55 @@ What is the difference between a static and a dynamic stack?
 Why does a dynamic stack not have a fixed size?
 
 What precautions should be taken when using dynamic memory allocation?
+
+6. Binary Search Tree (BST)
+Exercise 1
+
+What is a Binary Search Tree (BST) and what property differentiates it from a common binary tree?
+
+Exercise 2
+
+Explain how insertion, search, and removal operations are performed in a BST.
+
+Exercise 3
+
+What are the advantages and disadvantages of using a BST?
+
+7. AVL Tree
+Exercise 1
+
+What is an AVL Tree and how does it differ from a Binary Search Tree?
+
+Exercise 2
+
+What is the balance factor of a node and why is it important?
+
+Exercise 3
+
+Explain the purpose of AVL rotations (LL, RR, LR, and RL).
+
+8. Graph using Adjacency Matrix
+Exercise 1
+
+What is an adjacency matrix and how is it used to represent a graph?
+
+Exercise 2
+
+What are the advantages and disadvantages of using an adjacency matrix?
+
+Exercise 3
+
+In which situations is an adjacency matrix more suitable than an adjacency list?
+
+9. Graph using Adjacency List
+Exercise 1
+
+What is an adjacency list and how does it represent graph connections?
+
+Exercise 2
+
+What are the advantages and disadvantages of using an adjacency list?
+
+Exercise 3
+
+Why is an adjacency list generally preferred for sparse graphs?
