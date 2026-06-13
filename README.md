@@ -1,60 +1,84 @@
 # 📚 Data Structures Tutoring Repository (C Language)
 
-Welcome to the **Data Structures Tutoring Repository**, created to support studies, exercises, and practical implementations in **C language**.
+Welcome to the **Data Structures Tutoring Repository**, created to support studies, exercises, and practical implementations in the C programming language.
 
-This repository was designed as a study guide for tutoring sessions, helping students understand both the **theoretical concepts** and the **practical implementation** of the main data structures.
+This repository was designed as a study guide for tutoring sessions, helping students understand both the theoretical concepts and the practical implementation of the most important data structures used in Computer Science.
 
 ---
 
-## 🎯 Objective
+# 🎯 Objective
 
 The goal of this repository is to provide:
 
-* Practical implementations in **C**
+* Practical implementations in C
 * Theoretical summaries
-* Exercise lists (practical and conceptual)
+* Practical and theoretical exercise lists
 * Ready-to-run examples
 * Study material for exams and assignments
+* Reference implementations for academic projects
 
 ---
 
-## 🧱 Covered Data Structures
+# 🧱 Covered Data Structures
 
 This repository currently includes:
+
+### Lists
 
 * ✅ Static List
 * ✅ Linked List
 * ✅ Doubly Linked List
+
+### Stacks
+
 * ✅ Static Stack
 * ✅ Dynamic Stack
 
-## 📂 Current Folder Structure
+### Trees
+
+* ✅ Binary Search Tree (BST)
+* ✅ AVL Tree
+
+### Graphs
+
+* ✅ Graph using Adjacency Matrix
+* ✅ Graph using Adjacency List
+
+---
+
+# 📂 Current Folder Structure
 
 ```text
 /data-structures-tutoring
 │
 ├── /Instructions
-│   └── project setup and execution guides
+│   └── Project setup and execution guides
 │
 ├── /List
-│   ├── static list
-│   ├── linked list
-│   └── doubly linked list
-│
-├── /Queue
-│   └── queue implementations
+│   ├── Static List
+│   ├── Linked List
+│   └── Doubly Linked List
 │
 ├── /Stacks
-│   ├── static stack
-│   └── dynamic stack
+│   ├── Static Stack
+│   └── Dynamic Stack
+│
+├── /Trees
+│   ├── Binary Search Tree (BST)
+│   └── AVL Tree
+│
+├── /Graph
+│   ├── Matrix Graph
+│   └── List Graph
 │
 ├── /Summary
-│   ├── pt-BR summaries
-│   └── EN summaries
+│   ├── PT-BR Summaries
+│   └── EN Summaries
 │
 ├── /Exercises
-│   ├── practical exercises
-│   ├── theoretical questions
+│   ├── Practical Exercises
+│   ├── Theoretical Exercises
+│   └── Answer Keys
 │
 ├── .gitignore
 └── README.md
@@ -62,79 +86,96 @@ This repository currently includes:
 
 ---
 
-## ▶️ How to Run
+# ▶️ How to Run
 
-Compile any project folder with GCC:
+Compile any project folder using GCC:
+
+### Linux / macOS
 
 ```bash
 gcc *.c -o program
 ./program
 ```
 
-On Windows PowerShell:
+### Windows (PowerShell)
 
-```bash
-gcc *.c -o program
+```powershell
+gcc *.c -o program.exe
 .\program.exe
+```
+
+### Example
+
+```powershell
+gcc main.c abb.c -o abb.exe
+.\abb.exe
 ```
 
 ---
 
-## 📖 Topics Covered in Tutoring
+# 📖 Topics Covered in Tutoring
 
 The tutoring sessions focus on:
 
-* Memory allocation (`malloc` / `free`)
-* Pointers
-* Abstract data types
-* Dynamic memory
-* Recursive reasoning
-* Complexity basics
+* Memory allocation (`malloc`, `calloc`, `free`)
+* Pointers and pointer manipulation
+* Abstract Data Types (ADT)
+* Dynamic memory management
+* Recursive algorithms
+* Tree traversals
+* Graph traversals (DFS and BFS)
+* Complexity analysis
 * Practical problem solving in C
 
 ---
 
-## 🧠 Study Method
+# 🧠 Recommended Study Method
 
-Recommended study flow:
+To maximize learning:
 
 1. Read the theory summary
-2. Analyze the `.h` file
-3. Implement the `.c`
-4. Test with `main.c`
-5. Solve the exercise list
-6. Compare with the reference solution
+2. Study the `.h` file interface
+3. Analyze the implementation in the `.c` file
+4. Execute the provided `main.c`
+5. Solve the practical exercises
+6. Answer the theoretical questions
+7. Compare your solution with the reference implementation
 
 ---
 
-## 🚀 Purpose
+# 🚀 Purpose
 
 This repository is intended for:
 
 * University tutoring sessions
 * Exam preparation
+* Data Structures courses
 * C programming practice
-* Data structures portfolio
-* Interview preparation
+* Academic projects
+* Technical interview preparation
+* Portfolio development
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-Repository created for **Data Structures tutoring and academic support in C language**.
+Repository created for **Data Structures Tutoring and Academic Support** using the C programming language.
 
-Feel free to use, improve, and expand the exercises.
+Students are encouraged to study, modify, improve, and expand the implementations.
 
 ---
 
-## ⭐ Contribution
+# ⭐ Contributions
 
-Suggestions for new exercises and structures are welcome.
+Suggestions for new exercises, optimizations, and additional data structures are welcome.
 
-Possible next contributions:
+Possible future additions:
 
-* Queue implementations
-* Binary trees
-* Graph basics
-* Sorting challenges
-* Complexity exercises
+* Queue (Static and Dynamic)
+* Heap / Priority Queue
+* Red-Black Trees
+* Hash Tables
+* Shortest Path Algorithms
+* Minimum Spanning Trees
+* Sorting Algorithms
+* Complexity Analysis Challenges
